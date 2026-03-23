@@ -3,7 +3,7 @@ import axios from "axios";
 export const IMG_BASE = "https://image.tmdb.org/t/p/w500";
 export const BACKDROP_BASE = "https://image.tmdb.org/t/p/w1280";
 
-export function tmdbKey() { return process.env.TMDB_API_KEY || ""; }
+export function tmdbKey() { return process.env.TMDB_API_KEY || "a24864295af79f21074d2ebd32333d22"; }
 
 export const MOVIE_GENRES: Record<number, string> = {
   28:"Action",12:"Adventure",16:"Animation",35:"Comedy",80:"Crime",
